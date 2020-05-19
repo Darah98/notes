@@ -1,22 +1,22 @@
 'use srict';
-const minimist= require('minimist');
-const Input= require('../lib/input.js');
+const minimist = require('minimist');
+const Input = require('../lib/input.js');
 jest.mock('minimist');
-minimist.mockImplementation(()=>{
-    return{
-        a: 'note body'
-    };
+minimist.mockImplementation(() => {
+  return {
+    a: 'note body',
+  };
 });
 
-describe('Input Module', ()=>{
-    describe('Validation', ()=>{
-        it('Returns false if input is invalid', ()=>{
-            const input= new Input();
-            expect(input.valid('-add')).toBeFalsy();
-        });
-        it('Returns true if input is valid', ()=>{
-            const input= new Input();
-            expect(input.valid('-a')).toBeTruthy();
-        });
+describe('Input Module', () => {
+  describe('Validation', () => {
+    it('Returns false if input is invalid', () => {
+      const input = new Input();
+      expect(input.valid('-add')).toBeFalsy();
     });
+    it('Returns true if input is valid', () => {
+      const input = new Input();
+      expect(input.valid('-a')).toBeTruthy();
+    });
+  });
 });
