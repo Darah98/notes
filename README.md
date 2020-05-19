@@ -7,7 +7,7 @@
 ### Links and Resources
 
 - [submission PR](https://github.com/Darah98/notes/pull/2)
-- [ci/cd](GitHub Actions)
+- [ci/cd](https://github.com/Darah98/notes/runs/688956828)
 
 ### Setup
 #### How to initialize/run your application (where applicable)
