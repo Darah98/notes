@@ -12,11 +12,11 @@ describe('Input Module', ()=>{
     describe('Validation', ()=>{
         it('Returns true if input is valid', ()=>{
             const input= new Input();
-            expect(input.valid()).toBeTruthy();
+            expect(input.valid('-a')).toBeTruthy();
         });
         it('Returns false if input is invalid', ()=>{
             const input= new Input();
             expect(input.valid('-add')).toBeFalsy();
         });
     });
-})
+});

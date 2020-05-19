@@ -9,7 +9,6 @@
 - [submission PR](https://github.com/Darah98/notes/pull/1)
 
 ### Setup
-
 #### How to initialize/run your application (where applicable)
 
 - to run application: `npm start`
@@ -32,11 +31,10 @@
 
 ### Links and Resources
 
-- [submission PR](https://github.com/Darah98/notes/pull/1)
-- [ci/cd] (GitHub Actions)
+- [submission PR](https://github.com/Darah98/notes/pull/2)
+- [ci/cd](GitHub Actions)
 
 ### Setup
-
 #### How to initialize/run your application (where applicable)
 
 - to run application: `npm start`
