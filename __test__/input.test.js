@@ -16,7 +16,7 @@ describe('Input Module', () => {
     });
     it('Returns true if input is valid', () => {
       const input = new Input();
-      expect(input.valid('-a')).toBeTruthy();
+      expect(input.valid('--add')).toBeTruthy();
     });
   });
 });
