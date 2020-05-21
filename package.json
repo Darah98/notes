@@ -21,7 +21,8 @@
   "dependencies": {
     "dotenv": "^8.2.0",
     "minimist": "^1.2.5",
-    "mongoose": "^5.9.15"
+    "mongoose": "^5.9.15",
+    "uuid": "^8.1.0"
   },
   "devDependencies": {
     "eslint": "^7.0.0",
