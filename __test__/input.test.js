@@ -10,13 +10,13 @@ minimist.mockImplementation(() => {
 
 describe('Input Module', () => {
   describe('Validation', () => {
-    it('Returns false if input is invalid', () => {
-      const input = new Input();
-      expect(input.valid('-add')).toBeFalsy();
-    });
     it('Returns true if input is valid', () => {
       const input = new Input();
       expect(input.valid('--add')).toBeTruthy();
+    });
+    it('Returns false if input is invalid', () => {
+      const input = new Input();
+      expect(input.valid('-add')).toBeFalsy();
     });
   });
 });
