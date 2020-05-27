@@ -5,7 +5,6 @@ const Notes = require('./lib/notes.js');
 const mongoose = require('mongoose');
 
 const MONGODB_URI = process.env.MONGODB_URI;
-// console.log(MONGODB_URI);
 mongoose.connect(MONGODB_URI, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
@@ -15,8 +14,8 @@ const note = new Input();
 const cNote = new Notes();
 
 if (note.valid(note.action)) {
+  console.log('---------------------', note.category);
   cNote.execute(note);
-  // .then(mongoose.disconnect);
 } else {
   info();
 }
