@@ -7,7 +7,6 @@ minimist.mockImplementation(() => {
     a: 'note body',
   };
 });
-
 describe('Input Module', () => {
   describe('Validation', () => {
     it('Returns true if input is valid', () => {
