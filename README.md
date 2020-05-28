@@ -6,8 +6,8 @@
 
 ### Links and Resources
 
-- [submission PR](https://github.com/Darah98/notes/pull/2)
-- [ci/cd](https://github.com/Darah98/notes/runs/688956828)
+- [submission PR](https://github.com/Darah98/notes/pull/4)
+- [ci/cd](https://github.com/Darah98/notes/runs/717194559?check_suite_focus=true)
 
 ### Setup
 #### How to initialize/run your application 
@@ -20,4 +20,4 @@
 
 #### UML
 
-![UML](uml.PNG)
+![UML](umlfinal.PNG)
