@@ -14,7 +14,6 @@ const note = new Input();
 const cNote = new Notes();
 
 if (note.valid(note.action)) {
-  console.log('---------------------', note.category);
   cNote.execute(note);
 } else {
   info();
